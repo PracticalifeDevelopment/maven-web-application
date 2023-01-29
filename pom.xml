@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Practicalife Development Releases Nexus Repository</name>
-	      <url>http://52.201.218.3:8081/repository/Tesla_web_releases/</url>
+	      <url>http://172.31.86.118:8081/repository/Tesla_web_releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Practicalife Development Snapshot Nexus Repository </name>
-	      <url>http://52.201.218.3:8081/repository/Tesla_web_releases/</url>
+	      <url>http://172.31.86.118:8081/repository/Tesla_web_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
