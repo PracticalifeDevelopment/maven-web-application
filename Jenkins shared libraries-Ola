@@ -30,7 +30,7 @@ stage("Upload Artifacts Into Nexus"){
 }
 
 #Make sure you configure the sharedlibrary before running this pipeline. Dashboard | Manage Jenkins | Configure System | Scroll down to Global Pipeline library
-
+#Also make sure you specify the branch (under default version)
 
 
 
