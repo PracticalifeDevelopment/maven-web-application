@@ -8,7 +8,7 @@ tools {
 stages{
 stage('CheckoutCode'){
   steps{
-    git 'https://github.com/DevOpsbukky/maven-web-application'
+    git 'https://github.com/PracticalifeDevelopment/maven-web-application'
 }
 }
 stage("Build"){ 
@@ -28,3 +28,5 @@ stage("Upload Artifacts Into Nexus"){
 }
 }
 }
+
+#Make sure you configure the sharedlibrary before running this pipeline. Dashboard | Manage Jenkins | Configure System | Scroll down to Global Pipeline library
